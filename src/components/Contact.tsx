@@ -31,14 +31,14 @@ const Contact = () => {
 
             <div className="space-y-6">
               <a
-                href="mailto:hello@apexit.com"
+                href="radiancoresys@gmail.com"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="h-5 w-5 text-primary" />
                 hello@apexit.com
               </a>
               <a
-                href="https://calendly.com"
+                href="radiancoresys@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-6 py-3 rounded-md font-semibold glow-button"
