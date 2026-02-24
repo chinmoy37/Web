@@ -35,7 +35,7 @@ const Contact = () => {
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="h-5 w-5 text-primary" />
-                hello@apexit.com
+                radiancoresys@gmail.com
               </a>
               <a
                 href="radiancoresys@gmail.com"

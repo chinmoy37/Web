@@ -33,8 +33,16 @@ const Hero = () => {
             <span className="glow-text">so you can manage your business.</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-xl mb-10 leading-relaxed">
-            Enterprise-grade cybersecurity, cloud infrastructure, and 24/7 help desk
-            support — built for companies that can't afford downtime.
+            RadionCore is a premier software firm dedicated to driving
+            digital transformation through high-performance, scalable
+            solutions. We bridge the gap between complex business
+            challenges and intuitive technology, empowering
+            organizations to thrive in an increasingly digital economy.
+            With a focus on precision and innovation, we specialize in
+            developing robust infrastructures that streamline
+            operations and enhance security. Our commitment to
+            excellence ensures that every line of code we write adds
+            measurable value to your enterprise.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-16">
