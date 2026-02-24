@@ -33,16 +33,11 @@ const Hero = () => {
             <span className="glow-text">so you can manage your business.</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-xl mb-10 leading-relaxed">
-            RadionCore is a premier software firm dedicated to driving
-            digital transformation through high-performance, scalable
-            solutions. We bridge the gap between complex business
-            challenges and intuitive technology, empowering
-            organizations to thrive in an increasingly digital economy.
-            With a focus on precision and innovation, we specialize in
-            developing robust infrastructures that streamline
-            operations and enhance security. Our commitment to
-            excellence ensures that every line of code we write adds
-            measurable value to your enterprise.
+            RadianCore Systems is a modern IT company delivering secure, scalable, and high-performance software solutions. We help businesses transform digitally through intelligent technology that simplifies operations and drives growth.
+
+            We specialize in ERP, E-Commerce, and E-KYC solutions, built with a strong focus on security, innovation, and user-centric design.
+
+            At RadianCore, we combine technical expertise with strategic insight to create reliable digital infrastructures that empower businesses to thrive in today’s fast-moving digital economy.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-16">
