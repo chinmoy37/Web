@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { Send, Mail, Calendar } from "lucide-react";
 
@@ -123,3 +125,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

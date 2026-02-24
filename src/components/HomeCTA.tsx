@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const HomeCTA = () => {
   return (
@@ -21,14 +21,14 @@ const HomeCTA = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                to="/contact"
+                href="/contact"
                 className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-3.5 rounded-md font-semibold glow-button"
               >
                 Book a Discovery Call
                 <ArrowRight className="h-4 w-4" />
               </Link>
               <Link
-                to="/case-studies"
+                href="/case-studies"
                 className="inline-flex items-center justify-center gap-2 border border-border text-foreground px-8 py-3.5 rounded-md font-semibold hover:border-primary/50 transition-colors duration-300"
               >
                 See Our Results
