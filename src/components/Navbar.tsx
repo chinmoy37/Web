@@ -17,10 +17,10 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        <Link to="/" className="flex items-center gap-2 text-foreground">
-          <Shield className="h-7 w-7 text-primary" />
-          <span className="text-xl font-bold tracking-tight font-display">
-            Apex<span className="text-primary">IT</span>
+        <Link to="/" className="flex items-center gap-3 text-foreground">
+          <img src="/logo.png" alt="RadianCore Logo" className="h-10 w-10 object-contain" />
+          <span className="text-2xl font-bold tracking-tight font-display">
+            RadianCore
           </span>
         </Link>
 
@@ -30,11 +30,10 @@ const Navbar = () => {
             <Link
               key={l.href}
               to={l.href}
-              className={`text-sm transition-colors duration-200 ${
-                location.pathname === l.href
+              className={`text-sm transition-colors duration-200 ${location.pathname === l.href
                   ? "text-primary"
                   : "text-muted-foreground hover:text-primary"
-              }`}
+                }`}
             >
               {l.label}
             </Link>
@@ -64,11 +63,10 @@ const Navbar = () => {
               key={l.href}
               to={l.href}
               onClick={() => setOpen(false)}
-              className={`block transition-colors ${
-                location.pathname === l.href
+              className={`block transition-colors ${location.pathname === l.href
                   ? "text-primary"
                   : "text-muted-foreground hover:text-primary"
-              }`}
+                }`}
             >
               {l.label}
             </Link>

@@ -32,7 +32,7 @@ const WhyChooseUs = () => {
     <section className="section-padding bg-secondary/30 grid-bg">
       <div className="max-w-7xl mx-auto">
         <p className="text-primary font-mono text-sm tracking-widest uppercase mb-3">
-          Why ApexIT
+          Why RadianCore
         </p>
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">
           Built for Businesses That Can't Afford Downtime
