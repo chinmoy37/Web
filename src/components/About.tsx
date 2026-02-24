@@ -1,10 +1,10 @@
 import { Award, Target, Eye } from "lucide-react";
 
 const team = [
-  { name: "Sarah Chen", role: "CEO & Founder", initials: "SC" },
-  { name: "Marcus Rivera", role: "CTO", initials: "MR" },
-  { name: "Priya Kapoor", role: "Head of Security", initials: "PK" },
-  { name: "David Okonkwo", role: "VP of Engineering", initials: "DO" },
+  { name: "Sarah Chen", role: "CEO & Founder", image: "https://i.pravatar.cc/150?u=sarah.chen" },
+  { name: "Marcus Rivera", role: "CTO", image: "https://i.pravatar.cc/150?u=marcus.rivera" },
+  { name: "Priya Kapoor", role: "Head of Security", image: "https://i.pravatar.cc/150?u=priya.kapoor" },
+  { name: "David Okonkwo", role: "VP of Engineering", image: "https://i.pravatar.cc/150?u=david.okonkwo" },
 ];
 
 const certs = ["CompTIA Security+", "AWS Solutions Architect", "Cisco CCNA", "SOC 2 Type II", "ISO 27001"];
@@ -62,10 +62,8 @@ const About = () => {
               key={m.name}
               className="bg-card border border-border rounded-lg p-6 text-center card-hover"
             >
-              <div className="w-16 h-16 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                <span className="text-primary text-lg font-bold font-mono">
-                  {m.initials}
-                </span>
+              <div className="w-16 h-16 mx-auto rounded-full overflow-hidden bg-primary/10 flex items-center justify-center mb-4">
+                <img src={m.image} alt={m.name} className="w-full h-full object-cover" />
               </div>
               <h3 className="font-semibold text-foreground">{m.name}</h3>
               <p className="text-sm text-muted-foreground">{m.role}</p>
