@@ -44,7 +44,7 @@ const Contact = () => {
                 className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-6 py-3 rounded-md font-semibold glow-button"
               >
                 <Calendar className="h-5 w-5" />
-                Book a Discovery Call on Calendly
+                Book a Discovery Call on Radiancore
               </a>
             </div>
           </div>

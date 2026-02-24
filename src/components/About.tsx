@@ -47,9 +47,12 @@ const About = () => {
               <h3 className="text-xl font-bold text-foreground">Our Vision</h3>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              To become the most trusted IT partner for growing businesses worldwide —
-              setting the standard for proactive, human-centered technology management
-              that anticipates needs before they arise.
+              To be the global benchmark for
+              digital excellence, empowering
+              businesses through cuttingedge software that simplifies
+              complexity and fosters
+              sustainable growth in an
+              evolving digital landscape.
             </p>
           </div>
         </div>
