@@ -5,8 +5,8 @@ const Footer = () => {
     <footer className="bg-background border-t border-border py-12 px-6">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-3 text-foreground">
-          <img src="/logo.png" alt="RadianCore Logo" className="h-8 w-8 object-contain" />
-          <span className="text-xl font-bold font-display">
+          <img src="/logo.png" alt="RadianCore Logo" className="h-12 w-12 object-contain" />
+          <span className="text-2xl font-bold font-display">
             RadianCore
           </span>
         </div>
